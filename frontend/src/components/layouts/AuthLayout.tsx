@@ -8,12 +8,22 @@ const AuthLayout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
       style={{
         display: "flex",
         flexDirection: "column",
-        height: "100vh",
+        height: "100%",
+        minHeight: "100vh",
       }}
     >
-      <AuthHeader/>
-      <main>{children}</main>
-      <Footer/>
+      <AuthHeader />
+      <main
+        style={{
+          flex: 1,
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+        }}
+      >
+        {children}
+      </main>
+      <Footer />
     </div>
   );
 };

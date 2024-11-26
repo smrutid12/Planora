@@ -5,11 +5,15 @@ const Footer: React.FC = () => {
     <div
       style={{
         display: "flex",
-        flexDirection: "column",
+        flexDirection: "column"
       }}
     >
       <footer
-        style={{ textAlign: "center", padding: "10px", background: "#f0f2f5" }}
+        style={{
+          textAlign: "center",
+          padding: "10px",
+          marginTop: "auto", // Pushes footer to the bottom
+        }}
       >
         <p>Auth Footer - © 2024</p>
       </footer>

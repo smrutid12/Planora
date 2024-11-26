@@ -1,6 +1,5 @@
 import React from "react";
-import { Button, Progress, Switch } from "antd";
-import { CalendarOutlined, SettingOutlined } from "@ant-design/icons";
+import { Button, Progress} from "antd";
 
 const Dashboard: React.FC = () => {
   return (

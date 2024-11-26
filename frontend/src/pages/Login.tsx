@@ -21,7 +21,7 @@ const Login: React.FC = () => {
   };
 
   return (
-    <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '75vh', background: '#f0f2f5' }}>
+    <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
       <Card style={{ width: 400 }}>
         <h2 style={{ textAlign: 'center' }}>Login</h2>
         <Form

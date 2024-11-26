@@ -8,10 +8,8 @@ const AuthHeader: React.FC = () => {
         flexDirection: "column",
       }}
     >
-      <header
-        style={{ textAlign: "left", padding: "10px", background: "#f0f2f5" }}
-      >
-        <h1>Welcome to Our App</h1>
+      <header style={{ textAlign: "left", padding: "8px" }}>
+        <h1>Planora</h1>
       </header>
     </div>
   );

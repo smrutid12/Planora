@@ -12,8 +12,15 @@ const MainLayout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
       }}
     >
       <MainHeader />
-      <main style={{ padding: "20px" }}>{children}</main>
-      <Footer/>
+      <main
+        style={{
+          flex: 1, // Takes the remaining space
+          overflow: "hidden", // Prevents scrolling within the content area
+        }}
+      >
+        {children}
+      </main>
+      <Footer />
     </div>
   );
 };
